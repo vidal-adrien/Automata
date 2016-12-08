@@ -1,0 +1,26 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/play.png</file>
+        <file>icons/pause.png</file>
+        <file>icons/next.png</file>
+        <file>icons/clear.png</file>
+        <file>icons/zoomout.png</file>
+        <file>icons/zoomin.png</file>
+        <file>icons/8nei.png</file>
+        <file>icons/4nei.png</file>
+        <file>icons/head.png</file>
+        <file>icons/speed.png</file>
+        <file>icons/save.png</file>
+        <file>icons/open.png</file>
+        <file>icons/root.png</file>
+        <file>icons/info.png</file>
+        <file>icons/ok.png</file>
+        <file>icons/add.png</file>
+        <file>icons/remove.png</file>
+        <file>icons/invert.png</file>
+    </qresource>
+    <qresource prefix="/html">
+        <file>about.html</file>
+        <file>torus.png</file>
+    </qresource>
+</RCC>

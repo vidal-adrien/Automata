@@ -1,0 +1,63 @@
+<!DOCTYPE = html5>
+<html>
+<body>
+        <meta charset="UTF-8"/>
+        <img src=":/icons/icons/head.png"  alt="head" width="128" height="128"/>
+        <h1>About Automata</h1>
+            <p>
+                The <a href= "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Game of Life</a>, also known simply as Life, is a cellular automaton devised by the British mathematician John Horton Conway in 1970.
+                The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.
+                One interacts with the Game of Life by creating an initial configuration and observing how it evolves.
+
+            <br><br>
+
+                The game obeys two simple rules from which complex patterns emerge: An empty (<i>dead</i>) cell becomes alive if neighboured by <b>3</b> live cells and maintains this state while it is neighboured by <b>2</b> or <b>3</b> live cells.
+                Although the first to be devised, this set of rules is but one of <b>2<sup>18</sup></b> possible rulesets called life-like cellular  <a href= "https://en.wikipedia.org/wiki/Life-like_cellular_automaton">automata</a>.
+
+            <br><br>
+
+                The rulesets are encoded by their <b>B</b> states (number of neighbours at which a cell transitions from death to life) and <b>S</b> states (number of neighbours at which a live cell remains alive).<br>
+                Conway's game of life is thus noted <b>B3/S23</b>.
+
+            <br><br>
+
+            </p>
+        <h2> How To:</h2>
+        <ul>
+                <li>The central grid can be drawn on. The <i>left click</i> will draw live cells while the <i>right click</i> will erase them.</li>
+                <br>
+                <li><img src=":/icons/icons/zoomin.png"  alt="in" width="16" height="16"/><img src=":/icons/icons/zoomout.png"  alt="out" width="16" height="16"/>The grid can be navigated using combinations of <i>Ctrl</i>, <i>Shift</i> and the <i>mouse wheel</i> or the keyboard using the <i>directional arrows</i> and +/- keys.</li>
+                <br>
+                <li> <img src=":/icons/icons/play.png"  alt="play" width="16" height="16"/> will lauch the simulation. It will continue until the game reaches a stalemate of is paused by clicking again.</li>
+                <br>
+                <li><img src=":/icons/icons/speed.png"  alt="speed" width="16" height="16"/>The speed of the simulation can be modified by tweaking the time interval (ms) between generations.</il>
+                <br>
+                <li>The dimensions of the grid can be changed as well as the colour of the cells. Beware that redimentioning will clear the grid.</li>
+                <br>
+                <li>The green counter at the top-right displays the number of generations and is reset whenever the grid is cleared or loaded with a pattern.
+                <br>
+                <li><img src=":/icons/icons/open.png"  alt="open" width="16" height="16"/> To open a patern and <img src=":/icons/icons/save.png"  alt="save" width="16" height="16"/> to save the current pattern. The rule used is saved with the grid layout.
+                Aditionally, the pattern files can be loaded directly from the tree view. The root folder of the tree view can ca changed using <img src=":/icons/icons/root.png"  alt="play" width="16" height="16"/>. The change will be saved for future sessions.</li>
+                <br>
+                <li>Some example patterns are provided.
+                <br>
+                <li>The ruleset can be edited, from the panel below the tree view, at any time but doing so will pause the simulation. The game can be set to only consider the cardinal <img src=":/icons/icons/4nei.png"  alt="4nei" width="16" height="16"/> <b>4</b> neighbours or all <img src=":/icons/icons/8nei.png"  alt="8nei" width="16" height="16"/> <b>8</b> neighbours. The rule editing form will only accept entries accordingly.
+                <br>
+                <li>Some preset rulesets are available in a rolling list. Next to it, <img src=":/icons/icons/add.png"  alt="add" width="16" height="16"/> lets you save a ruleset to the list for future use while  <img src=":/icons/icons/remove.png"  alt="remove" width="16" height="16"/> deletes the curently selected entry permanently. Adding an exixting ruleset will overwrite its name.</li>
+                <br>
+               <img src=":/html/torus.png" alt="torus" width="256" height="256"/> <li>The edges of the grid can be "connected", meaning that the neighbouhood status is transmited from one edge to its oposite. This will have the effect of making patterns leaving one side of the board to go to the other. Another way to see this is to imagine the plane as the surface of a torus (see above).
+                <br>
+                <li>The game always starts with cells colored black, a 50x50 grid and on the Conway (B3/S23) rule with 8 neighbours and unconnected edges as well as a 50ms<sup>-1</sup> speed . If you would prefer other presets you can edit the "ruleset.ini" file. Note that a saved game keeps the settings as well as the pattern</li>
+
+        </ul>
+
+         <br><br>
+<p>
+<i>I <a href= https://www.youtube.com/watch?v=E8kUJL04ELA>hate</a> the game of life ~John Conway</i>
+
+<br><br>
+
+Source code available at <a href= https://github.com/vidal-adrien/automata>Github</a>.
+</p>
+</body>
+</html>
